@@ -4,3 +4,7 @@ iface eth0 inet static
   netmask 255.255.0.0
   gateway 10.5.10.1
   dns-nameservers 10.5.16.25 1.1.1.1
+
+
+hostnamectl set-hostname "ato-loadbalancer.pushingstart.com"
+echo "10.5.10.2 ato-loadbalancer.pushingstart.com" >> /etc/hosts
