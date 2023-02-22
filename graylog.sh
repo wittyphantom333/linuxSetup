@@ -1,3 +1,6 @@
+#! /bin/sh
+# AlmaLinux 9.1 Required
+
 sudo dnf -y install java-11-openjdk-devel epel-release 
 sudo dnf update
 sudo dnf install -y pwgen
