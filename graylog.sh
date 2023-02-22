@@ -2,7 +2,7 @@
 # AlmaLinux 9.1 Required
 
 sudo dnf -y install java-11-openjdk-devel epel-release 
-sudo dnf update
+sudo dnf update -y
 sudo dnf install -y pwgen
 
 cat <<EOF | sudo tee /etc/yum.repos.d/elasticsearch.repo
